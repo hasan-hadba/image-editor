@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Editor | Hassan Hadba</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode"> 
+    <button id="mode-toggle" class="mode-btn">Light Mode</button>
+
+    <div class="container">
+        
+        <div class="image-section">
+            <div class="img-box">
+                <div class="upload-placeholder">
+                    <span class="plus-icon">+</span>
+                    <p>Please upload an image</p>
+                </div>
+
+                <img id="image-node" src="" alt="">
+                <canvas id="export-canvas" style="display:none;"></canvas>
+            </div>
+            
+            <div class="action-bar">
+                <input type="file" id="upload" accept="image/*" hidden>
+                <label for="upload" class="btn upload-btn">Choose Image</label>
+                <button id="download" class="btn save-btn" disabled>Save Image</button>
+                <button id="reset" class="btn reset-btn" disabled>Reset</button>
+            </div>
+        </div>
+
+        <div class="control-section">
+            <h2 class="title">Editing Tools</h2>
+            <div class="sliders">
+                <div class="box">
+                    <label>Brightness</label>
+                    <input type="range" id="brightness" min="0" max="200" value="100">
+                </div>
+                <div class="box">
+                    <label>Contrast</label>
+                    <input type="range" id="contrast" min="0" max="200" value="100">
+                </div>
+                <div class="box">
+                    <label>Saturate</label>
+                    <input type="range" id="saturate" min="0" max="200" value="100">
+                </div>
+                <div class="box">
+                    <label>Hue Rotate</label>
+                    <input type="range" id="hue" min="0" max="360" value="0">
+                </div>
+                <div class="box">
+                    <label>Grayscale</label>
+                    <input type="range" id="gray" min="0" max="100" value="0">
+                </div>
+                <div class="box">
+                    <label>Blur</label>
+                    <input type="range" id="blur" min="0" max="10" value="0">
+                </div>
+                <div class="box">
+                    <label>Sepia</label>
+                    <input type="range" id="sepia" min="0" max="100" value="0">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
