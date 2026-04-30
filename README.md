@@ -1,8 +1,6 @@
 
 # Modern Image Editor
 
-### Live Project Link: https://hasan-hadba.github.io/modern-image-editor/
-
 ---
 
 ## Project Overview
@@ -13,13 +11,6 @@ This project is a functional web-based image processing platform developed using
 * UI Customization: The editor features a seamless Light and Dark Mode toggle, providing an optimized user experience for different lighting environments.
 * Export Functionality: Leveraging the HTML5 Canvas API, the application processes all modifications and allows users to download and save their edited images directly to their local storage.
 * Performance-Oriented: Designed with a clean and responsive interface, ensuring smooth performance and fast rendering across modern web browsers.
-
----
-
-## Video Demonstration
-The following video demonstrates the editor's features and the seamless user experience in real-time:
-
-https://github.com/user-attachments/assets/b1853f1f-3f68-4136-bbb8-48779c4c8159
 
 ---
 
@@ -64,7 +55,7 @@ This project isn't just about filters; it's about how JavaScript interacts with 
 ---
 
 ## 📖 How to Use
-1.  **Choose Image**: Upload any photo from your device[cite: 1, 2].
+1.  **Choose Image**: Upload any photo from your device.
 2.  **Edit**: Use the sliders to adjust brightness, contrast, blur, and more in real-time.
 3.  **Reset**: Easily return to original settings with a single click.
 4.  **Save**: Export your masterpiece directly to your device.
@@ -74,4 +65,4 @@ This project isn't just about filters; it's about how JavaScript interacts with 
 ## 👨‍💻 Developed by
 **Hassan Hadba**  
 *Computer Science Student at SVU | Front-end Developer*
->>>>>>> 2d7300a (Enhance UI design with modern dark/light mode and responsive layout)
+>>>>>>>  (Enhance UI design with modern dark/light mode and responsive layout)
